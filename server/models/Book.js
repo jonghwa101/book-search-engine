@@ -26,6 +26,12 @@ const bookSchema = new Schema({
     type: String,
     required: true,
   },
+  pageCount: {
+    type: Number,
+  },
+  publishedDate: {
+    type: String,
+  }
 });
 
 module.exports = bookSchema;
